@@ -52,11 +52,6 @@ async def on_message(message):
         response = f'${round(crypto.price(id),4)} USD'
         await message.channel.send(response)
 
-    if message.content.startswith('g ollie'):
-
-        for
-        response = 'Howdily-doodily, neighborino'
-        await message.channel.send(response)
 
 
 
